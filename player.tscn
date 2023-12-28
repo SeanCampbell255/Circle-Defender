@@ -7,7 +7,7 @@
 radius = 200.0
 
 [node name="Player" type="Area2D"]
-position = Vector2(576, 324)
+position = Vector2(980, 540)
 script = ExtResource("1_878q4")
 circleRadius = 200.0
 metadata/_edit_group_ = true

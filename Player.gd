@@ -6,4 +6,4 @@ func _ready():
 	queue_redraw()
 
 func _draw():
-	draw_circle( Vector2.ZERO, circleRadius, Color("BLACK") )
+	draw_arc( Vector2.ZERO, circleRadius, 0, TAU, 360, Color("PINK") )
